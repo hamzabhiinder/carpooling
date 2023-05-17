@@ -1,12 +1,12 @@
-import 'package:carpooling_app/past_ride_screen.dart';
-import 'package:carpooling_app/privacy_policy_screen.dart';
-import 'package:carpooling_app/profile_screen.dart';
-import 'package:carpooling_app/wallet_screen.dart';
-import 'package:flutter/material.dart';
-import 'package:carpooling_app/available_rides_screen.dart';
-import 'package:carpooling_app/offer_ride_screen.dart';
-import 'package:carpooling_app/female_only_rides_screen.dart';
 
+import 'package:carpooling_app/screen/female_only_rides_screen.dart';
+import 'package:carpooling_app/screen/offer_ride_screen.dart';
+import 'package:carpooling_app/screen/past_ride_screen.dart';
+import 'package:carpooling_app/screen/privacy_policy_screen.dart';
+import 'package:carpooling_app/screen/profile_screen.dart';
+import 'package:flutter/material.dart';
+
+import 'available_rides_screen.dart';
 import 'booked_ride_screen.dart';
 import 'how_it_works_screen.dart';
 import 'notifications_screen.dart';

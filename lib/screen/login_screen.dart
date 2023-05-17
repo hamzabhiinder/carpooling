@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:carpooling_app/forgot_password_screen.dart';
-import 'package:carpooling_app/signup_screen.dart';
-import 'package:carpooling_app/home_screen.dart';
+import 'package:carpooling_app/screen/forgot_password_screen.dart';
+import 'package:carpooling_app/screen/signup_screen.dart';
+import 'package:carpooling_app/screen/home_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   final String userType; // Define userType as a named parameter

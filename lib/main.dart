@@ -1,8 +1,8 @@
-import 'package:carpooling_app/splash_screen.dart';
-import 'package:carpooling_app/user_screen.dart';
+import 'package:carpooling_app/screen/splash_screen.dart';
+import 'package:carpooling_app/screen/user_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:carpooling_app/login_screen.dart';
-import 'package:carpooling_app/home_screen.dart';
+import 'package:carpooling_app/screen/login_screen.dart';
+import 'package:carpooling_app/screen/home_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

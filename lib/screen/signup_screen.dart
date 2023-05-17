@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:carpooling_app/home_screen.dart';
+import 'package:carpooling_app/screen/home_screen.dart';
 
 class SignupScreen extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
