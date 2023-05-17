@@ -1,3 +1,4 @@
+import 'package:carpooling_app/firebase_options.dart';
 import 'package:carpooling_app/services/auth1/auth_exception1.dart';
 import 'package:carpooling_app/services/auth1/auth_providor.dart';
 import 'package:carpooling_app/services/auth1/auth_user.dart';
@@ -8,7 +9,7 @@ class FirebaseAuthProvider implements AuthProvider {
   @override
   Future<void> initialize() async {
     await Firebase.initializeApp(
-     // options: DefaultFirebaseOptions.currentPlatform,
+      options: DefaultFirebaseOptions.currentPlatform,
     );
   }
 

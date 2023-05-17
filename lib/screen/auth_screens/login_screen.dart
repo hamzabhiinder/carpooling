@@ -1,5 +1,6 @@
 import 'package:carpooling_app/screen/auth_screens/Verify_email.dart';
 import 'package:carpooling_app/screen/auth_screens/forgot_password_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:carpooling_app/screen/auth_screens/signup_screen.dart';
 import 'package:carpooling_app/screen/home_screen.dart';
@@ -94,9 +95,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 final email = _email.text;
                 final password = _password.text;
                 try {
-                  // await FirebaseAuth.instance
-                  //     .signInWithEmailAndPassword(
-                  //         email: email, password: password);
+                  // await firebaseAuth.signInWithEmailAndPassword(
+                  //     email: email, password: password);
 
                   await AuthService.firebase().logIn(
                     email: email,
@@ -133,12 +133,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   );
                 }
                 /////////////////////////////////////////////
-                Navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => HomeScreen(),
-                  ),
-                );
+                // Navigator.pushReplacement(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (context) => HomeScreen(),
+                //   ),
+                // );
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor:
