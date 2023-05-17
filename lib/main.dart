@@ -1,7 +1,7 @@
-import 'package:carpooling_app/screen/splash_screen.dart';
+import 'package:carpooling_app/screen/auth_screens/splash_screen.dart';
 import 'package:carpooling_app/screen/user_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:carpooling_app/screen/login_screen.dart';
+import 'package:carpooling_app/screen/auth_screens/login_screen.dart';
 import 'package:carpooling_app/screen/home_screen.dart';
 
 void main() {

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "216330642609",
+    "project_id": "testingapp-c8cac",
+    "storage_bucket": "testingapp-c8cac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216330642609:android:66860f815c1722ad152e90",
+        "android_client_info": {
+          "package_name": "com.example.untitlednew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216330642609-4f02ekgmmnnt8eihk1lt1ljnht834bh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdqaJOkU3O7A36apJmZ8eBZsOWLzi5zvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216330642609-4f02ekgmmnnt8eihk1lt1ljnht834bh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216330642609:android:9aa523e1461a656f152e90",
+        "android_client_info": {
+          "package_name": "com.ibnux.smsgateway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216330642609-4f02ekgmmnnt8eihk1lt1ljnht834bh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdqaJOkU3O7A36apJmZ8eBZsOWLzi5zvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216330642609-4f02ekgmmnnt8eihk1lt1ljnht834bh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
